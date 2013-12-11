@@ -35,14 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		97A62CFF1858BBC800E35637 /* VeganMKE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeganMKE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A62CFF1858BBC800E35637 /* VeggieMKE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeggieMKE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A62D021858BBC800E35637 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		97A62D041858BBC800E35637 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		97A62D061858BBC800E35637 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		97A62D0A1858BBC800E35637 /* VeganMKE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VeganMKE-Info.plist"; sourceTree = "<group>"; };
+		97A62D0A1858BBC800E35637 /* VeggieMKE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VeggieMKE-Info.plist"; sourceTree = "<group>"; };
 		97A62D0C1858BBC800E35637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97A62D0E1858BBC800E35637 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		97A62D101858BBC800E35637 /* VeganMKE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VeganMKE-Prefix.pch"; sourceTree = "<group>"; };
+		97A62D101858BBC800E35637 /* VeggieMKE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VeggieMKE-Prefix.pch"; sourceTree = "<group>"; };
 		97A62D111858BBC800E35637 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		97A62D121858BBC800E35637 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		97A62D151858BBC800E35637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,9 +51,9 @@
 		97A62D1A1858BBC800E35637 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		97A62D1B1858BBC800E35637 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		97A62D1D1858BBC800E35637 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		97A62D231858BBC900E35637 /* VeganMKETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeganMKETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97A62D231858BBC900E35637 /* VeggieMKETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeggieMKETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97A62D241858BBC900E35637 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		97A62D2C1858BBC900E35637 /* VeganMKETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VeganMKETests-Info.plist"; sourceTree = "<group>"; };
+		97A62D2C1858BBC900E35637 /* VeggieMKETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VeggieMKETests-Info.plist"; sourceTree = "<group>"; };
 		97A62D2E1858BBC900E35637 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97A62D301858BBC900E35637 /* VeganMKETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VeganMKETests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,8 +95,8 @@
 		97A62D001858BBC800E35637 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97A62CFF1858BBC800E35637 /* VeganMKE.app */,
-				97A62D231858BBC900E35637 /* VeganMKETests.xctest */,
+				97A62CFF1858BBC800E35637 /* VeggieMKE.app */,
+				97A62D231858BBC900E35637 /* VeggieMKETests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,10 +131,10 @@
 		97A62D091858BBC800E35637 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				97A62D0A1858BBC800E35637 /* VeganMKE-Info.plist */,
+				97A62D0A1858BBC800E35637 /* VeggieMKE-Info.plist */,
 				97A62D0B1858BBC800E35637 /* InfoPlist.strings */,
 				97A62D0E1858BBC800E35637 /* main.m */,
-				97A62D101858BBC800E35637 /* VeganMKE-Prefix.pch */,
+				97A62D101858BBC800E35637 /* VeggieMKE-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 		97A62D2B1858BBC900E35637 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				97A62D2C1858BBC900E35637 /* VeganMKETests-Info.plist */,
+				97A62D2C1858BBC900E35637 /* VeggieMKETests-Info.plist */,
 				97A62D2D1858BBC900E35637 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -160,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97A62CFE1858BBC800E35637 /* VeganMKE */ = {
+		97A62CFE1858BBC800E35637 /* VeggieMKE */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97A62D341858BBC900E35637 /* Build configuration list for PBXNativeTarget "VeganMKE" */;
+			buildConfigurationList = 97A62D341858BBC900E35637 /* Build configuration list for PBXNativeTarget "VeggieMKE" */;
 			buildPhases = (
 				97A62CFB1858BBC800E35637 /* Sources */,
 				97A62CFC1858BBC800E35637 /* Frameworks */,
@@ -172,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = VeganMKE;
+			name = VeggieMKE;
 			productName = VeganMKE;
-			productReference = 97A62CFF1858BBC800E35637 /* VeganMKE.app */;
+			productReference = 97A62CFF1858BBC800E35637 /* VeggieMKE.app */;
 			productType = "com.apple.product-type.application";
 		};
-		97A62D221858BBC900E35637 /* VeganMKETests */ = {
+		97A62D221858BBC900E35637 /* VeggieMKETests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97A62D371858BBC900E35637 /* Build configuration list for PBXNativeTarget "VeganMKETests" */;
+			buildConfigurationList = 97A62D371858BBC900E35637 /* Build configuration list for PBXNativeTarget "VeggieMKETests" */;
 			buildPhases = (
 				97A62D1F1858BBC900E35637 /* Sources */,
 				97A62D201858BBC900E35637 /* Frameworks */,
@@ -190,9 +190,9 @@
 			dependencies = (
 				97A62D291858BBC900E35637 /* PBXTargetDependency */,
 			);
-			name = VeganMKETests;
+			name = VeggieMKETests;
 			productName = VeganMKETests;
-			productReference = 97A62D231858BBC900E35637 /* VeganMKETests.xctest */;
+			productReference = 97A62D231858BBC900E35637 /* VeggieMKETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97A62CFA1858BBC800E35637 /* Build configuration list for PBXProject "VeganMKE" */;
+			buildConfigurationList = 97A62CFA1858BBC800E35637 /* Build configuration list for PBXProject "VeggieMKE" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,8 +222,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97A62CFE1858BBC800E35637 /* VeganMKE */,
-				97A62D221858BBC900E35637 /* VeganMKETests */,
+				97A62CFE1858BBC800E35637 /* VeggieMKE */,
+				97A62D221858BBC900E35637 /* VeggieMKETests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +274,7 @@
 /* Begin PBXTargetDependency section */
 		97A62D291858BBC900E35637 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 97A62CFE1858BBC800E35637 /* VeganMKE */;
+			target = 97A62CFE1858BBC800E35637 /* VeggieMKE */;
 			targetProxy = 97A62D281858BBC900E35637 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -385,9 +385,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VeganMKE/VeganMKE-Prefix.pch";
-				INFOPLIST_FILE = "VeganMKE/VeganMKE-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "VeganMKE/VeggieMKE-Prefix.pch";
+				INFOPLIST_FILE = "VeganMKE/VeggieMKE-Info.plist";
+				PRODUCT_NAME = VeggieMKE;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,9 +398,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VeganMKE/VeganMKE-Prefix.pch";
-				INFOPLIST_FILE = "VeganMKE/VeganMKE-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "VeganMKE/VeggieMKE-Prefix.pch";
+				INFOPLIST_FILE = "VeganMKE/VeggieMKE-Info.plist";
+				PRODUCT_NAME = VeggieMKE;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -421,8 +421,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "VeganMKETests/VeganMKETests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "VeganMKETests/VeggieMKETests-Info.plist";
+				PRODUCT_NAME = VeggieMKETests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,8 +440,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VeganMKE/VeganMKE-Prefix.pch";
-				INFOPLIST_FILE = "VeganMKETests/VeganMKETests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "VeganMKETests/VeggieMKETests-Info.plist";
+				PRODUCT_NAME = VeggieMKETests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -450,7 +450,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97A62CFA1858BBC800E35637 /* Build configuration list for PBXProject "VeganMKE" */ = {
+		97A62CFA1858BBC800E35637 /* Build configuration list for PBXProject "VeggieMKE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97A62D321858BBC900E35637 /* Debug */,
@@ -459,7 +459,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97A62D341858BBC900E35637 /* Build configuration list for PBXNativeTarget "VeganMKE" */ = {
+		97A62D341858BBC900E35637 /* Build configuration list for PBXNativeTarget "VeggieMKE" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97A62D351858BBC900E35637 /* Debug */,
@@ -467,7 +467,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		97A62D371858BBC900E35637 /* Build configuration list for PBXNativeTarget "VeganMKETests" */ = {
+		97A62D371858BBC900E35637 /* Build configuration list for PBXNativeTarget "VeggieMKETests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97A62D381858BBC900E35637 /* Debug */,
